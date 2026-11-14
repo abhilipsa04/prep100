@@ -7,7 +7,7 @@ int main()
     scanf("%d", &n);
     printf("Enter no. of seats : ");
     scanf("%d", &r);
-    int arrengment = factorialr(n) / factorial(n - r);
+    int arrengment = factorial(n) / factorial(n - r);
     printf("The possiable arrengment is %d", arrengment);
     return 0;
 }
