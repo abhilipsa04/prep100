@@ -30,7 +30,6 @@ int main()
         decimal = decimal / 2;
         j++;
     }
-
     printf("Binary number = ");
 
     for (i = j - 1; i >= 0; i--)
